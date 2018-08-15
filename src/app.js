@@ -1,8 +1,10 @@
-import HelloWorld from './components/HelloWorld'
+import AppHeader from './components/AppHeader';
+import TodoInput from './components/TodoInput';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AppHeader,
+    TodoInput
   }
 }
